@@ -502,7 +502,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 12}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3850f99249f034468ba0342d35f30592, type: 1}
+  m_Script: {fileID: 11500000, guid: cdf9c843469674980a2144e8154d5e1c, type: 1}
   m_Name: 
   missFx: {fileID: 100000, guid: 0ec9f61e9eee64079bc3ec4c14009a85, type: 2}
   collisionRadius: .100000001
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aa303d87f1f44c3e8c87f5efdc5e474, type: 1}
+  m_Script: {fileID: 11500000, guid: 9c3a5c7856b374983b6125fc253a9693, type: 1}
   m_Name: 
   cubeNumber: 20
   cubePrefab: {fileID: 100000, guid: 366a19aad1a4b4f3aa0bd1226917a7e6, type: 2}
