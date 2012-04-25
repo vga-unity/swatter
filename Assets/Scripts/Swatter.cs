@@ -8,13 +8,10 @@ public class Swatter : MonoBehaviour {
     public float collisionRadius = 0.1f;   // 当たり判定の大きさ。
 
     void Update() {
-        // 各タッチ点を順に処理する。
-        foreach (Touch touch in Input.touches) {
-            // タッチのフェーズが「開始」であれば……
-            if (touch.phase == TouchPhase.Began) {
-                // コリジョンのチェックを行う。
-                CheckCollision(touch.position);
-            }
+        // マウス左ボタンがクリックされたら……
+        if (Input.GetMouseButtonDown(0)) {
+            // コリジョンのチェックを行う。
+            CheckCollision(Input.mousePosition);
         }
     }
     
